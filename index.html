@@ -141,15 +141,17 @@
                 top: 0;
             }
 
-            #perroquet {
+            #perroquet-box {
                 position: absolute;
+                top: 0;
                 right: 0;
-                top: -2px;
-                height: 2.5%;
-                width: 1.55%;
-                border-radius: 50%;
-                margin-inline-end: 1.5em;
-                shape-outside: margin-box;
+            }
+
+            #perroquet {
+                margin-top: -10px;
+
+                width: 30px;
+
             }
 
             .liste {
@@ -245,7 +247,9 @@
         
         <div class="droite">
             <p class="droite2" id="copyright">© Tom Planche - 2021</p>
-            <a class="droite2" href="https://github.com/TomPlanche/" target="blank_"><img id="perroquet" src="perroquet.png" alt="Moi" hr></a>
+            <a class="droite2" id="perroquet-box" href="https://github.com/TomPlanche/" target="blank_">
+                <img id="perroquet" src="perroquet.png" alt="Moi" hr>
+            </a>
         </div>
         
         
