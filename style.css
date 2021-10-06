@@ -1,6 +1,6 @@
 @font-face {
     font-family: argestadisplay-regular-webfont;
-    src: url(argestadisplay-regular-webfont.ttf);
+    src: url(assets/argestadisplay-regular-webfont.ttf);
 }
 
 @keyframes headerFadeIn {
