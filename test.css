@@ -1,0 +1,234 @@
+@font-face {
+    font-family: argestadisplay-regular-webfont;
+    src: url(argestadisplay-regular-webfont.ttf);
+}
+
+@keyframes headerFadeIn {
+    0% {
+        transform: translateX(-80px);
+        opacity: 0;
+    }
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes headerFadeIn2 {
+    0% {
+        transform: translateX(40px);
+        opacity: 0;
+    }
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes headerFadeIn3 {
+    0% {
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes telephone-sonne {
+    0% {
+        
+    }
+    10% {
+        transform: rotate(5deg);
+    }
+    20% {
+        transform: rotate(-5deg);      
+    }
+    30% {
+        transform: rotate(5deg);     
+    }
+    40% {
+        transform: rotate(-5deg);       
+    }
+    50% {
+        transform: rotate(5deg);     
+    }
+    60% {
+        transform: rotate(-5deg);        
+    }
+    70% {
+        transform: rotate(5deg);      
+    }
+    80% {
+        transform: rotate(-5deg);         
+    }
+    90% {
+        transform: rotate(5deg);      
+    }
+    100% {
+        transform: rotate(-5deg);        
+    }
+}
+
+::selection {
+    background: rgba(254, 153, 0, 0.8);
+    color: black;
+}
+
+body {
+    background-color: #181818;
+}
+
+.gauche {
+    position: absolute;
+    color: wheat;
+    display: flex;
+    top: 0%;
+    transform: translateX(-80px);
+    opacity: 0;
+    animation: headerFadeIn3 3s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+.langue {
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#fr {
+    color: #FE9900;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+#change {
+    position: absolute;
+    color: #FE9900;
+    top: 4%;
+    left: 50%;
+    font-weight: 100;
+    font-size: 48px;
+    font-family: 'argestadisplay-regular-webfont', -apple-system;
+    transform: translate(-50%, -50%);
+    text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
+}
+
+.droite {
+    color: wheat;
+    display: flex;
+}
+
+.droite2 {
+    margin: 10px;
+    font-size: 20px;
+}
+
+#copyright {
+    color: #FE9900;
+    position: absolute;
+    right: 2%;
+    top: 0;
+}
+
+#perroquet-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#perroquet {
+    margin-top: -10px;
+
+    width: 30px;
+
+}
+
+.liste {
+    width: 90%;
+    list-style-type: cjk-ideographic;
+    font-size: 35px;
+    position: absolute;
+    top: 11%;
+    left: 2%;
+    color: rgb(214, 210, 210);
+    transform: translateX(-80px);
+    opacity: 0;
+    animation: headerFadeIn 3s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+.sousListe {
+    padding: 25px 0 5px 0;
+}
+
+.titre {
+    color: white;
+    font-family: 'argestadisplay-regular-webfont', -apple-system;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.dansTitre {
+    font-size: 25px;
+    width: 100%;
+}
+
+.petitTitre {
+    color: rgb(214, 210, 210);
+    font-size: 30px;
+    text-decoration: underline;
+    position: relative;
+}
+
+.dansPetitTitre {
+    font-size: 25px;
+}
+
+#competancesLangues {
+    font-size: 30px;
+    color: rgb(214, 210, 210);
+}
+
+.listeContact {
+    list-style: none;
+}
+
+.icone {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: all .2s ease-in-out;
+}
+
+.petitTitre:hover > .icone {
+    -webkit-filter: grayscale(0);
+    filter:grayscale(0);
+    transform: scale(1.2);
+}
+
+.lien {
+    color: #FE9900;
+}
+
+.icone {
+    vertical-align: middle;
+    height: 70px;
+    margin: 10px;
+}
+
+#icone-tel {
+    vertical-align: middle;
+    height: 70px;
+    margin: 10px;
+    filter: grayscale(1);
+}
+
+.petitTitre:hover > #icone-tel {
+    filter: grayscale(0);
+    animation: telephone-sonne 2s infinite;
+    animation-timing-function: infinite;
+}
