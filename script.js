@@ -65,8 +65,7 @@ document.getElementById("age").innerHTML = new Date().getFullYear() - 2002;
                 phrase = [ 
                     "Hello.",
                     "I'm Tom Planche.",
-                    "Welcome on my website.",
-                    ":)"
+                    "Welcome to my website."
                 ];
                 document.getElementById('en').style.color = '#FE9900';
                 document.getElementById('en').style.textDecoration = 'underline';
