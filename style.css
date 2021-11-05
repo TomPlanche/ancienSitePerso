@@ -1,5 +1,10 @@
 :root {
     --main-text-color: rgba(100, 157, 255, 0.9);
+    --main-text-color2: rgba(100, 157, 255, 0.1);
+    --slate: #7184A5;
+    --trans: transparent;
+    --white: #FFFFFF;
+    --sakura: #FFE4E4;
 }
 
 @font-face {
@@ -32,13 +37,23 @@
 @keyframes headerFadeIn3 {
     0% {
         transform: translateY(-40px);
-        opacity: 0;
     }
     100% {
         transform: translateX(20px);
         opacity: 1;
     }
 }
+
+@keyframes headerFadeIn4 {
+    0% {
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 @keyframes telephone-sonne {
     0% {
@@ -83,6 +98,10 @@
 
 body {
     background-color: #181818;
+    opacity: 1;
+    background-image:  radial-gradient(var(--main-text-color2) 0.95px, transparent 0.95px), radial-gradient(var(--main-text-color2) 0.95px, #181818 0.95px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
 }
 
 .gauche {
@@ -153,7 +172,7 @@ body {
 
 .liste {
     width: 90%;
-    list-style-type: cjk-ideographic;
+    list-style-type: katakana;
     font-size: 35px;
     position: absolute;
     top: 11%;

@@ -1,11 +1,11 @@
 document.getElementById("age").innerHTML = new Date().getFullYear() - 2002;
+document.getElementById("date").innerHTML = new Date().getFullYear();
 
 
 var phrase  = [ 
     "Bonjour à vous.",
     "Je suis Tom Planche.",
-    "Bienvenue sur mon site.",
-    ":)"
+    "Bienvenue sur mon site."
 ];
 
 var part = 0;
