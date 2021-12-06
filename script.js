@@ -1,5 +1,5 @@
 document.getElementById("age").innerHTML = new Date().getFullYear() - 2002;
-document.getElementById("date").innerHTML = new Date().getFullYear();
+document.getElementById("annee").innerHTML = new Date().getFullYear();
 
 
 var phrase  = [ 
