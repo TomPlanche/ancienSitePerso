@@ -12,6 +12,7 @@
     src: url(assets/argestadisplay-regular-webfont.ttf);
 }
 
+
 @keyframes headerFadeIn {
     0% {
         transform: translateX(-80px);
@@ -57,37 +58,37 @@
 
 @keyframes telephone-sonne {
     0% {
-        
+
     }
     10% {
         transform: rotate(5deg);
     }
     20% {
-        transform: rotate(-5deg);      
+        transform: rotate(-5deg);
     }
     30% {
-        transform: rotate(5deg);     
+        transform: rotate(5deg);
     }
     40% {
-        transform: rotate(-5deg);       
+        transform: rotate(-5deg);
     }
     50% {
-        transform: rotate(5deg);     
+        transform: rotate(5deg);
     }
     60% {
-        transform: rotate(-5deg);        
+        transform: rotate(-5deg);
     }
     70% {
-        transform: rotate(5deg);      
+        transform: rotate(5deg);
     }
     80% {
-        transform: rotate(-5deg);         
+        transform: rotate(-5deg);
     }
     90% {
-        transform: rotate(5deg);      
+        transform: rotate(5deg);
     }
     100% {
-        transform: rotate(-5deg);        
+        transform: rotate(-5deg);
     }
 }
 
@@ -135,7 +136,7 @@ body {
     left: 50%;
     font-weight: 100;
     font-size: 48px;
-    font-family: 'argestadisplay-regular-webfont', -apple-system;
+    font-family: ltc-goudy-oldstyle-pro, -apple-system;
     transform: translate(-50%, -50%);
     text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
 }
@@ -191,7 +192,7 @@ body {
 
 .titre {
     color: white;
-    font-family: 'argestadisplay-regular-webfont', -apple-system;
+    font-family: ltc-goudy-oldstyle-pro, -apple-system;
     font-size: 35px;
     text-decoration: underline;
 }
